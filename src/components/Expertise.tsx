@@ -68,7 +68,7 @@ const labelsThird = [
 
 function Expertise() {
   return (
-    <div className="container" id="expertise">
+    <div className="container" id="education">
       <div className="skills-container">
         <h1>Education</h1>
         <div className="skills-grid">
