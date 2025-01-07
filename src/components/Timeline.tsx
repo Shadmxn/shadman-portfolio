@@ -19,19 +19,24 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="August 2024 - present"
+            date="August 2024 - Present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Developer
+              Software Developer & Marketing Strategist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Sandbox Prep - Hamilton, ON
+              Sandbox Prep - AI Startup, Hamilton ON
             </h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management,
-              Business Development
+              At Sandbox Prep, I lead the development of an AI-powered
+              educational app, building robust back-end systems with Express.js
+              and PostgreSQL while integrating OpenAI’s API for personalized
+              features. I focus on creating a seamless user experience using
+              React.js, TypeScript, and Material-UI, while collaborating with
+              the team to define key app features, user journeys, and marketing
+              strategies.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,11 +49,14 @@ function Timeline() {
               Product Process Specialist
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Best Buy - Ancaster, ON
+              Best Buy, Ancaster ON
             </h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team
-              Leading
+              At Best Buy, I manage product inventory, ensure timely restocking,
+              and optimize store layouts to improve sales and customer
+              satisfaction. I work closely with team members to refine
+              merchandising strategies and assist in training new hires on
+              product knowledge and operational efficiency.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -57,11 +65,17 @@ function Timeline() {
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Team Supervisor</h3>
+            <h3 className="vertical-timeline-element-title">Supervisor</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Shoppers Drug Mart - Ancaster, ON
+              Shoppers Drug Mart, Ancaster ON
             </h4>
-            <p>Full-stack Development, API Development, User Experience</p>
+            <p>
+              As a supervisor, I oversaw daily operations, mentored a team of
+              cashiers and merchandisers, and managed inventory processes to
+              boost sales. I resolved customer concerns, enhanced team
+              productivity, and ensured consistent delivery of exceptional
+              customer service.
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

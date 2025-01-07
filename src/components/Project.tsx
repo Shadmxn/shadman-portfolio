@@ -3,10 +3,7 @@ import Sandbox from "../assets/images/Sandbox.png";
 import Switchy from "../assets/images/Switchy.png";
 import Photolabs from "../assets/images/Photolabs.png";
 import Tweeter from "../assets/images/Tweeter.png";
-import mock09 from "../assets/images/mock09.png";
-import mock10 from "../assets/images/mock10.png";
 import "../assets/styles/Project.scss";
-import { Photo } from "@mui/icons-material";
 
 function Project() {
   return (
@@ -14,12 +11,8 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <h2>Sandbox Prep</h2>
-          </a>
+          <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
+          <h2>Sandbox Prep</h2>
           <p>
             Sandbox Prep is a cutting-edge, AI-powered educational app developed
             with React.js, TypeScript, Express.js, PostgreSQL, and the OpenAI
@@ -31,20 +24,8 @@ function Project() {
           </p>
         </div>
         <div className="project">
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Switchy} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Switchy</h2>
-          </a>
+          <img src={Switchy} className="zoom" alt="thumbnail" width="100%" />
+          <h2>Switchy</h2>
           <p>
             Switchy is a career-switching app designed to guide users through
             their transition into new industries or roles. Built with React.js,
@@ -55,25 +36,8 @@ function Project() {
           </p>
         </div>
         <div className="project">
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={Photolabs}
-              className="zoom"
-              alt="thumbnail"
-              width="100%"
-            />
-          </a>
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>PhotoLabs</h2>
-          </a>
+          <img src={Photolabs} className="zoom" alt="thumbnail" width="100%" />
+          <h2>PhotoLabs</h2>
           <p>
             PhotoLabs is a simple yet elegant stock photo application, designed
             as a React-based single-page application. It allows users to browse
@@ -84,20 +48,8 @@ function Project() {
           </p>
         </div>
         <div className="project">
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Tweeter} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://yujisatojr.itch.io/highspeedchase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Tweeter</h2>
-          </a>
+          <img src={Tweeter} className="zoom" alt="thumbnail" width="100%" />
+          <h2>Tweeter</h2>
           <p>
             Tweeter is a simple, single-page Twitter (now X) clone designed to
             replicate key functionalities of the original platform. Built with a

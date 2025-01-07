@@ -61,8 +61,7 @@ function Contact() {
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
           <p>
-            Got a project waiting to be realized? Let's collaborate and make it
-            happen!
+            Got an idea or an opportunity? Let’s connect and bring it to life!
           </p>
           <Box
             ref={form}
