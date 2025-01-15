@@ -2,7 +2,7 @@ import React from "react";
 import Sandbox from "../assets/images/Sandbox.png";
 import Switchy from "../assets/images/Switchy.png";
 import Photolabs from "../assets/images/Photolabs.png";
-import Tweeter from "../assets/images/Tweeter.png";
+import Tweeter from "../assets/images/NewTweeter.png";
 import "../assets/styles/Project.scss";
 
 function Project() {

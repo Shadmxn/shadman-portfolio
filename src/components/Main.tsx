@@ -36,8 +36,8 @@ function Main() {
             <Typewriter
               words={[
                 "Full Stack Developer",
-                "Software Engineer",
-                "Tech Enthusiast",
+                "Tech Entrepreneur",
+                "Digital Creator",
               ]}
               loop={true}
               cursor
