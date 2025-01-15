@@ -23,7 +23,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/shadman-rahman-04aa66303/"
+              href="www.linkedin.com/in/shadmanr"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,14 +35,14 @@ function Main() {
 
           <div className="mobile_social_icons">
             <a
-              href="https://github.com/yujisatojr"
+              href="https://github.com/Shadmxn"
               target="_blank"
               rel="noreferrer"
             >
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/yujisato/"
+              href="www.linkedin.com/in/shadmanr"
               target="_blank"
               rel="noreferrer"
             >
