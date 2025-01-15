@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Typewriter } from "react-simple-typewriter";
 import "../assets/styles/Main.scss";
 
 function Main() {
@@ -31,7 +32,21 @@ function Main() {
             </a>
           </div>
           <h1>Shadman Rahman</h1>
-          <p>Full Stack Developer</p>
+          <p className="typewriter">
+            <Typewriter
+              words={[
+                "Full Stack Developer",
+                "Software Engineer",
+                "Tech Enthusiast",
+              ]}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </p>
 
           <div className="mobile_social_icons">
             <a
