@@ -11,7 +11,7 @@ function Footer() {
           <GitHubIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/shadman-rahman-04aa66303/"
+          href="https://www.linkedin.com/in/shadmanr"
           target="_blank"
           rel="noreferrer"
         >

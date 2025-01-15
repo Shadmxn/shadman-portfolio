@@ -24,7 +24,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="www.linkedin.com/in/shadmanr"
+              href="https://www.linkedin.com/in/shadmanr"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +57,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="www.linkedin.com/in/shadmanr"
+              href="https://www.linkedin.com/in/shadmanr"
               target="_blank"
               rel="noreferrer"
             >
