@@ -24,19 +24,23 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Developer & Marketing Strategist
+              Software Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Sandbox Prep - AI Startup, Hamilton ON
             </h4>
             <p>
-              At Sandbox Prep, I lead the development of an AI-powered
-              educational app, building robust back-end systems with Express.js
-              and PostgreSQL while integrating OpenAI’s API for personalized
-              features. I focus on creating a seamless user experience using
-              React.js, TypeScript, and Material-UI, while collaborating with
-              the team to define key app features, user journeys, and marketing
-              strategies.
+              At Sandbox Prep, I serve as a founding engineer, primarily
+              focusing on front-end development while contributing to backend
+              integration and overall system architecture. I lead the design and
+              implementation of the app’s front-end using React.js, TypeScript,
+              and Material-UI, creating an intuitive and visually appealing user
+              experience. I work closely with the backend team to integrate
+              Express.js and PostgreSQL, ensuring seamless API communication and
+              efficient data management. Additionally, I actively refine product
+              features, enhance UI/UX, and prioritize scalability and
+              maintainability to support the platform’s long-term growth and
+              success.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
