@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shadman-portfolio/static/css/main.94c47abd.css",
-    "main.js": "/shadman-portfolio/static/js/main.cebba204.js",
+    "main.js": "/shadman-portfolio/static/js/main.5cb90dbd.js",
     "static/js/453.b05d8aa5.chunk.js": "/shadman-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/Photolabs.png": "/shadman-portfolio/static/media/Photolabs.3301750693329507700f.png",
     "static/media/NewTweeter.png": "/shadman-portfolio/static/media/NewTweeter.4ae4b7557e93f06a1a54.png",
@@ -11,11 +11,11 @@
     "static/media/bg-dark.png": "/shadman-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "index.html": "/shadman-portfolio/index.html",
     "main.94c47abd.css.map": "/shadman-portfolio/static/css/main.94c47abd.css.map",
-    "main.cebba204.js.map": "/shadman-portfolio/static/js/main.cebba204.js.map",
+    "main.5cb90dbd.js.map": "/shadman-portfolio/static/js/main.5cb90dbd.js.map",
     "453.b05d8aa5.chunk.js.map": "/shadman-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94c47abd.css",
-    "static/js/main.cebba204.js"
+    "static/js/main.5cb90dbd.js"
   ]
 }
