@@ -17,6 +17,30 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="February 2025 - Present"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Software Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              WebUp @ Expense Trend, Calgary AB (remote)
+            </h4>
+            <p>
+              At WebUp, I work on a platform that allows users to enhance any
+              website by entering its URL. The platform provides an interactive
+              preview of the enhanced website, which users can review before
+              deciding to purchase. After purchasing through Stripe, users
+              receive a downloadable zip file of their enhanced website, and
+              they can also have a copy sent to their email for future access.
+              My role involves developing the web platform, ensuring smooth API
+              integrations, and optimizing the user experience.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="August 2024 - Present"
@@ -24,7 +48,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Developer
+              Founder & Software Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Sandbox Prep - AI Startup, Hamilton ON
@@ -45,7 +69,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="October 2022 - Present"
+            date="October 2022 - February 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -56,11 +80,11 @@ function Timeline() {
               Best Buy, Ancaster ON
             </h4>
             <p>
-              At Best Buy, I manage product inventory, ensure timely restocking,
-              and optimize store layouts to improve sales and customer
-              satisfaction. I work closely with team members to refine
-              merchandising strategies and assist in training new hires on
-              product knowledge and operational efficiency.
+              At Best Buy, I managed product inventory, ensured timely
+              restocking, and optimized store layouts to improve sales and
+              customer satisfaction. I worked closely with team members to
+              refine merchandising strategies and assisted in training new hires
+              on product knowledge and operational efficiency.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
