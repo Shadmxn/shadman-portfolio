@@ -25,17 +25,17 @@ function Timeline() {
               Software Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              WebUp @ Expense Trend, Calgary AB (remote)
+              Expense Trend, Calgary AB (Remote)
             </h4>
             <p>
-              At WebUp, I work on a platform that allows users to enhance any
-              website by entering its URL. The platform provides an interactive
-              preview of the enhanced website, which users can review before
-              deciding to purchase. After purchasing through Stripe, users
-              receive a downloadable zip file of their enhanced website, and
-              they can also have a copy sent to their email for future access.
-              My role involves developing the web platform, ensuring smooth API
-              integrations, and optimizing the user experience.
+              At Expense Trend, I develop AI-powered marketing solutions,
+              including an AI-driven blog generator that leverages OpenAI for
+              automated content creation and DALL·E 3 for dynamic image
+              generation. Additionally, I contributed to WebUp, a platform under
+              Expense Trend, by enhancing its AI-powered website transformation
+              tool. My role includes implementing Stripe integrations for secure
+              transactions, optimizing user interactions, and refining backend
+              processes to improve performance and scalability.
             </p>
           </VerticalTimelineElement>
 
