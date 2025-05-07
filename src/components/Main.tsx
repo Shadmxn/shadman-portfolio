@@ -34,11 +34,7 @@ function Main() {
           <h1>Shadman Rahman</h1>
           <p className="typewriter">
             <Typewriter
-              words={[
-                "Full Stack Developer",
-                "Tech Entrepreneur",
-                "Digital Creator",
-              ]}
+              words={["Full Stack Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
