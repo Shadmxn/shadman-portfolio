@@ -28,19 +28,27 @@ function Project() {
             have a copy sent to their email for future access.
           </p>
         </div>
-        <div className="project">
-          <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
-          <h2>Sandbox Prep</h2>
-          <p>
-            Sandbox Prep is a cutting-edge, AI-powered educational app developed
-            with React.js, TypeScript, Express.js, PostgreSQL, and the OpenAI
-            API. It offers AI-driven video transcription and personalized
-            feedback to help students achieve academic success. Currently
-            tailored for MMI preparation, the app provides a seamless and
-            responsive experience across platforms, combining innovation with
-            practicality to support effective learning.
-          </p>
-        </div>
+        <a
+          href="https://sandboxprep.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <div className="project">
+            <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
+            <h2>Sandbox Prep</h2>
+            <p>
+              Sandbox Prep is a cutting-edge, AI-powered educational app
+              developed with React.js, TypeScript, Express.js, PostgreSQL, and
+              the OpenAI API. It offers AI-driven video transcription and
+              personalized feedback to help students achieve academic success.
+              Currently tailored for MMI preparation, the app provides a
+              seamless and responsive experience across platforms, combining
+              innovation with practicality to support effective learning.
+            </p>
+          </div>
+        </a>
+
         <div className="project">
           <img src={Tweeter} className="zoom" alt="thumbnail" width="100%" />
           <h2>Tweeter</h2>
@@ -66,18 +74,26 @@ function Project() {
             development practices.
           </p>
         </div>
-        <div className="project">
-          <img src={Switchy} className="zoom" alt="thumbnail" width="100%" />
-          <h2>Switchy</h2>
-          <p>
-            Switchy is a career-switching app designed to guide users through
-            their transition into new industries or roles. Built with React.js,
-            Express.js, PostgreSQL, it features personalized roadmaps, curated
-            learning resources, mentor connections, and progress tracking. The
-            app empowers users to navigate their career journeys confidently,
-            providing tailored support and insights for professional growth.
-          </p>
-        </div>
+        <a
+          href="https://github.com/DaniyarBazakov/Switchy/tree/main"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <div className="project">
+            <img src={Switchy} className="zoom" alt="thumbnail" width="100%" />
+            <h2>Switchy</h2>
+            <p>
+              Switchy is a career-switching app designed to guide users through
+              their transition into new industries or roles. Built with
+              React.js, Express.js, PostgreSQL, it features personalized
+              roadmaps, curated learning resources, mentor connections, and
+              progress tracking. The app empowers users to navigate their career
+              journeys confidently, providing tailored support and insights for
+              professional growth .
+            </p>
+          </div>
+        </a>
       </div>
     </div>
   );
