@@ -69,6 +69,32 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="August 2023 - Present"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              WordPress Developer & Content Manager
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              R2 Studios - Toronto, ON
+            </h4>
+            <p>
+              I co-own and manage R2 Studios, overseeing client projects in web
+              development, content strategy, and digital marketing. My
+              responsibilities include designing and maintaining WordPress
+              websites with custom themes, SEO optimization, and responsive
+              layouts to enhance user experience and drive online visibility.
+              Additionally, I produce and edit branded photos and videos for
+              digital marketing campaigns, contributing to stronger brand
+              engagement and storytelling for clients.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="October 2022 - February 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
