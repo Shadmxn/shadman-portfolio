@@ -1,13 +1,13 @@
 import React from "react";
 import WebUp from "../assets/images/WebUp.png";
-import Sandbox from "../assets/images/Sandbox.png";
+import Sandbox from "../assets/images/NewSandbox.png";
 import Switchy from "../assets/images/Switchy.png";
 import Photolabs from "../assets/images/Photolabs.png";
 import Tweeter from "../assets/images/NewTweeter.png";
 import "../assets/styles/Project.scss";
 import DevQuiz from "../assets/images/DevQuiz.png";
 import AiBlog from "../assets/images/AiBlog.png";
-import ExpenseTrend from "../assets/images/ExpenseTrend.png";
+import ExpenseTrend from "../assets/images/NewET.png";
 
 function Project() {
   return (
@@ -15,28 +15,23 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <a
-          href="https://github.com/Shadmxn/blog-generator"
+          href="https://sandboxprep.com"
           target="_blank"
           rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
         >
           <div className="project">
-            <img
-              src={AiBlog}
-              className="zoom"
-              alt="AI Blog Generator thumbnail"
-              width="100%"
-            />
-            <h2>AI Blog Generator</h2>
+            <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
+            <h2>Sandbox Prep</h2>
             <p>
-              The AI Blog Generator is an advanced content creation platform
-              that leverages OpenAI to generate high-quality, engaging blog
-              articles. It produces well-structured content based on
-              user-defined topics, with automatic formatting and AI-generated
-              images powered by DALL-E 3. This integration allows for stunning,
-              contextually relevant visuals that seamlessly accompany the
-              written content, elevating the overall reading experience. Perfect
-              for bloggers and content creators looking to automate their
-              writing process while maintaining a human-like touch.
+              Sandbox Prep is a cutting-edge, AI-powered educational app
+              developed with React.js, TypeScript, Express.js, PostgreSQL, and
+              the OpenAI API. It offers AI-driven video transcription and
+              personalized feedback to help students achieve academic success.
+              Currently tailored for MMI preparation and Casper, the app
+              provides a seamless and responsive experience across platforms,
+              combining innovation with practicality to support effective
+              learning.
             </p>
           </div>
         </a>
@@ -66,6 +61,32 @@ function Project() {
             </p>
           </div>
         </a>
+        <a
+          href="https://github.com/Shadmxn/blog-generator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project">
+            <img
+              src={AiBlog}
+              className="zoom"
+              alt="AI Blog Generator thumbnail"
+              width="100%"
+            />
+            <h2>AI Blog Generator</h2>
+            <p>
+              The AI Blog Generator is an advanced content creation platform
+              that leverages OpenAI to generate high-quality, engaging blog
+              articles. It produces well-structured content based on
+              user-defined topics, with automatic formatting and AI-generated
+              images powered by DALL-E 3. This integration allows for stunning,
+              contextually relevant visuals that seamlessly accompany the
+              written content, elevating the overall reading experience. Perfect
+              for bloggers and content creators looking to automate their
+              writing process while maintaining a human-like touch.
+            </p>
+          </div>
+        </a>
 
         <a
           href="https://bitbucket.org/FarazBhojani/webup-website/src/develop/"
@@ -87,27 +108,6 @@ function Project() {
               purchase. After purchasing through Stripe, users receive a
               downloadable zip file of their enhanced website, and they can also
               have a copy sent to their email for future access.
-            </p>
-          </div>
-        </a>
-
-        <a
-          href="https://sandboxprep.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "inherit" }}
-        >
-          <div className="project">
-            <img src={Sandbox} className="zoom" alt="thumbnail" width="100%" />
-            <h2>Sandbox Prep</h2>
-            <p>
-              Sandbox Prep is a cutting-edge, AI-powered educational app
-              developed with React.js, TypeScript, Express.js, PostgreSQL, and
-              the OpenAI API. It offers AI-driven video transcription and
-              personalized feedback to help students achieve academic success.
-              Currently tailored for MMI preparation, the app provides a
-              seamless and responsive experience across platforms, combining
-              innovation with practicality to support effective learning.
             </p>
           </div>
         </a>

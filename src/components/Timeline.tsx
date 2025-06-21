@@ -43,7 +43,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="August 2024 - Present"
+            date="August 2024 - February 2025"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -54,17 +54,14 @@ function Timeline() {
               Sandbox Prep - AI Startup, Hamilton ON
             </h4>
             <p>
-              At Sandbox Prep, I serve as a founding engineer, primarily
-              focusing on front-end development while contributing to backend
-              integration and overall system architecture. I lead the design and
-              implementation of the app’s front-end using React.js, TypeScript,
-              and Material-UI, creating an intuitive and visually appealing user
-              experience. I work closely with the backend team to integrate
-              Express.js and PostgreSQL, ensuring seamless API communication and
-              efficient data management. Additionally, I actively refine product
-              features, enhance UI/UX, and prioritize scalability and
-              maintainability to support the platform’s long-term growth and
-              success.
+              Sandbox Prep is an AI-powered educational platform that helps
+              users prepare for MMI and CASPer through interactive simulations
+              and AI-driven feedback. As a founding developer, I helped build
+              the platform using React, PostgreSQL, Material UI, and the OpenAI
+              API, integrating intelligent analysis tools to deliver
+              personalized feedback. I oversaw product vision, development, and
+              strategy, focusing on creating an intuitive user interface and
+              leveraging AI to improve learning outcomes.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
